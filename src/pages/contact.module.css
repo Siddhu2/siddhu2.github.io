@@ -1,0 +1,27 @@
+.social-container {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .social-container a {
+    text-decoration: none;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+
+  .social-container a:hover {
+    opacity: 0.7;
+  }
+
+  /* Social Media Icons */
+  .facebook { background-color: #3b5998; }
+  .twitter { background-color: #1da1f2; }
+  .linkedin { background-color: #0077b5; }
+  .github { background-color: #333; }

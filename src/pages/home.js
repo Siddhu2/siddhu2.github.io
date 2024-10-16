@@ -4,7 +4,6 @@ function Home(props)
 {
     return (
         <div style={{ 
-            backgroundImage: `url(${process.env.PUBLIC_URL + '/img/home.jpg'})`,
             backgroundSize: 'cover',
             height: '100vh',
             width: '100vw',
